@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (value) {
             tv_check_connection.setText("Back Online");
-            tv_check_connection.setBackgroundColor(Color.GREEN);
+            tv_check_connection.setBackgroundColor(Color.parseColor("#558B2F"));
             tv_check_connection.setTextColor(Color.WHITE);
 
             Handler handler = new Handler();
